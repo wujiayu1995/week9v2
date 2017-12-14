@@ -1,0 +1,134 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+  <meta charset="UTF-8">
+ 
+  <title>JiaYu Portfolio</title>
+
+  <style>/*This is CSS stylesheet*/
+    /*font!!!!!!!!!!!!!!!*/
+    @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+    @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Coming+Soon');
+    /*font!!!!!!!!!!!!!!!*/
+    
+    body {background-color: beige;}
+    h1 {font-family: 'Amatic SC', cursive;
+        font-size: 500%;}
+    
+    ul {list-style-type: none;
+        margin: 50px;
+        padding-left:30px;
+        }
+  
+    ul li {float: left;}
+  
+    ul li a {display:block;
+             padding:20px;
+             padding-left: 220px;
+             font-family: 'Amatic SC', cursive;
+             font-size: 180%;
+            }
+    a:link {text-decoration: none;}
+    a:visited {text-decoration: none;
+               color:black;}
+    a:hover{text-decoration: line-through;}
+    a:active{text-decoration: line-through;}
+    
+   
+    
+  
+    article {padding-top: 120px;
+             padding-left: 415px;
+             padding-right: auto;}
+    
+    article img {border-radius: 8px;
+                 }
+    
+    footer {padding-top: 100px;}
+    footer center {font-family:'Amatic SC', cursive;
+                  font-size: 150%;}
+    
+    /*reference from W3SCHOOL below....*/
+    .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: skyblue;
+  border-radius: 8px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+    
+     /*reference from W3SCHOOL above....*/
+  
+  </style>
+  
+ 
+  </head>
+
+<body>
+  
+  <header>
+  <h1><center>JiaYu</center></h1>
+    <nav>
+    
+    <ul>
+      <li><a href="week5assignment3 about.html" target="_blank">About</a></li>
+      <li><a href="week5assignment2.html" target="_blank">Works</a></li>
+      <li><a href="mailto:wujiayu1995@gmail.com?Subject=Hello%20again" target="_top">Contact</a></li>
+      
+      
+      </ul>
+    
+    </nav>
+  
+  
+  </header>
+  
+  <article>
+    <div class="container">
+  <img src="walk.JPG" alt="Avatar" class="image" width="600" height="auto">
+   <div class="overlay">
+  <div class="text">Welcome</div>
+    </div>
+    </div>
+      
+  </article>
+    
+  <footer>
+  
+  <p><center>JiaYu Wu || &copy;2017 ||</center></p>
+  
+  </footer>  
+  </body>
+
+</html>
